@@ -1,0 +1,426 @@
+html,
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.login-image {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden !important;
+}
+.register-image {
+  width: 100%;
+  height: 97vh;
+}
+.logo-image {
+  width: 120px;
+  height: 50px;
+}
+
+.purple-bg {
+  background-color: #7126b5 !important;
+  border-color: #7126b5 !important;
+}
+
+.lilac-bg {
+  background-color: #d6c1ec!important;
+  border-color: #d6c1ec!important;
+}
+
+.purple-text{
+  color: #7126b5 !important;
+}
+
+.purple-outline{
+  border: 2px solid #7126b5 !important;
+  border-radius: 5px;
+  background-color: white !important;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #7126b5 !important;
+  color: #7126b5 !important;
+}
+
+.custom-rounded {
+  border-radius: 16px !important;
+}
+
+.btn-rounded{
+  border-radius: 10px !important;
+}
+
+.plus-icon{
+  border: 2px dashed #D3D3D3;
+  padding: 35px;
+  border-radius: 5px;
+  margin-right: 170px;
+  color: #D3D3D3;
+}
+
+.camera-icon{
+  font-size: 30px;
+  padding: 50px;
+  border-radius: 10px;
+  color: #7126b5;
+  background-color: #E2D4F0;
+}
+
+.image-file{
+  display: none !important;
+  visibility: none !important;
+}
+
+.CamIcon{
+  text-align: center;
+}
+
+.pusher{
+  margin-left: 100px;
+}
+
+.input-box{
+  position: relative;
+}
+
+.input-box i {
+  position: absolute;
+  right: 13px;
+  top:15px;
+  color:#ced4da;
+
+}
+
+.form-control{
+  height: 50px;
+  background-color:#eeeeee69;
+}
+
+.form-control:focus{
+  background-color: #eeeeee69;
+  box-shadow: none;
+  border-color: #eee;
+}
+
+.logo-image{
+  position: absolute;
+  width: 100px;
+  height: 34px;
+}
+
+
+.navbar-brand{
+  margin-bottom: 33px !important;
+}
+
+.logo{
+    margin-bottom: 35px !important;
+}
+
+.product_img{
+  width: 550px;
+  height: 386px;
+}
+
+.seller_img{
+  width: 40px;
+  height: 40px;
+}
+
+.spacing{
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+}
+
+.search-box{
+  height: 40px;
+  margin-left: 110px;
+  width: 300px !important; 
+  border-radius: 16px !important;
+  background-color: #EEEEEE !important;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+.sbox{
+  background-color: #EEEEEE !important; 
+  border: none !important;
+  height: 40px;
+}
+
+.font-control{
+  font-size: 12px !important;
+}
+
+.font-14{
+  font-size: 14px !important;
+}
+
+.card-size{
+  height: 80px;
+}
+
+.deskripsi{
+  font-style: 14px;
+  color:gray;
+}
+
+.icons{
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+}
+
+.btn-jual{
+  position: fixed;
+  bottom: 0px;
+  padding: 20px;
+
+}
+
+.form-spacing{
+  margin-top: 10px ;
+}
+
+.card-product{
+  border-radius: 23px !important;
+}
+
+/* daftar jual */
+#daftarjual .profile-card .profile-name {
+  width: fit-content;
+  margin-left: 15px;
+  position: relative;
+  top: -5px;
+  left: 30px;
+  font-weight: bold;
+}
+
+#daftarjual .profile-card .profile-kota {
+  font-weight: lighter;
+  width: fit-content;
+  margin-left: 15px;
+  position: relative;
+  top: -10px;
+  left: 50px;
+}
+
+#daftarjual .profile-card .profile-button {
+  position: relative;
+  top: -40px;
+  right: 20px;
+}
+#daftarjual .profile-card .profile-button .btn {
+  border-color: blueviolet;
+  color: blueviolet;
+}
+#daftarjual .profile-card .profile-button .btn:hover {
+  background-color: blueviolet;
+  border-color: #e2d4f0;
+  color: white;
+}
+
+#daftarjual .profile-card .profile-img {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+#daftarjual .card-position .card-seller {
+  margin-left: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#daftarjual .card-position .card-seller .button-card {
+  width: 290px;
+  height: 250px;
+  border-style: dashed;
+  border-color: grey;
+  border-width: 3px;
+  border-radius: 10px;
+  color: grey;
+  font-size: 20px;
+}
+#daftarjual .card-position .card-seller .button-card:hover {
+  border-color: blueviolet;
+  color: blueviolet;
+  background-color: #e2d4f0;
+}
+#daftarjual .card-position .card-seller .button-card .icon-plus {
+  font-size: 50px;
+}
+
+#daftarjual .card-position .card-seller {
+  margin-bottom: 40px;
+}
+
+#daftarjual .hidden-button {
+  display: none;
+}
+
+#daftarjual .hidden-button .btn {
+  background-color: #e2d4f0;
+  border-color: blueviolet;
+  color: black;
+  width: 200px;
+}
+
+#daftarjual .hidden-button .btn:hover {
+  background-color: blueviolet;
+  border-color: #e2d4f0;
+  color: white;
+  width: 200px;
+}
+
+/* component cardlist */
+#cardlist {
+  width: 18rem;
+}
+#cardlist a {
+  text-decoration: none;
+  color: black;
+}
+#cardlist a:hover {
+  color: blueviolet;
+}
+#cardlist hr {
+  height: 1px;
+}
+/* #cardlist font {
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  top: -10px;
+  color: #d0d0d0;
+} */
+#cardlist .kategori {
+  font-size: 20px;
+}
+#cardlist .semua-prod,
+.diminati,
+.terjual {
+  font-size: 20px;
+}
+@media (max-width: 900px) {
+  #daftarjual .card-position .card-list-seller {
+    display: none;
+  }
+  #daftarjual .card-position .card-seller {
+    margin-left: 0px;
+  }
+  #daftarjual .hidden-button {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .title-visible{
+    visibility: visible !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .title-visible{
+    visibility: hidden ;
+  }
+  .btn-terbitakan{
+    visibility: hidden !important;
+  }
+}
+
+@media (min-width: 565px) and (max-width: 766px) {
+  .product-offered-title{
+    margin-left: 50px !important;
+  }
+}
+
+@media (min-width: 516px) and (max-width: 566px) {
+  .product-offered-title{
+    margin-left: 30px !important;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 994px) {
+  .card-product{
+    width: 400px;
+    border-radius: 23px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .invisible-content{
+    visibility: hidden !important;
+  }
+  .product-img{
+    margin-top: -50px;
+  }
+  .card-product{
+    width: 400px;
+    border-radius: 23px !important;
+    margin-top: -90px;
+  }
+  .card-offered{
+    margin-top: 0px;
+  }
+  .product-offered-title{
+    margin-left: 20px;
+  }
+  .card-description{
+    border-radius: 25px !important;
+    width: 400px;
+  }
+  .logo-invisible{
+    visibility: hidden !important;
+    display: none !important;
+  }
+  .form-in-mobile{
+    margin-top: 60px !important;
+  }
+  .spacing{
+    margin-top: 50px !important;
+  }
+  .camera-icon{
+    padding: 30px;
+    font-size: 15px;
+  }
+  .font-control{
+    font-size: 12px;
+  }
+  .form-input{
+    height: 30px;
+  }
+  .form-spacing{
+    margin-top: 7px !important;
+  }
+  .center{
+    text-align: center !important;
+  }
+  .btn-product-offered{
+    text-align: center !important;
+  }
+  .justify-center{
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex;
+  }
+  .btn-terbitakan{
+    position: fixed;
+    bottom: 0px;
+    padding-bottom: 20px;
+  }
+}

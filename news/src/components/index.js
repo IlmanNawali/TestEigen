@@ -1,0 +1,6 @@
+export { default as NewsItem } from './NewsItem'
+export { default as NewsList } from './NewsList'
+export { default as NewsItemUS } from './NewsItemUS'
+export { default as NewsListUS } from './NewsListUS'
+export { default as NewsItemSport } from './NewsItemSport'
+export { default as NewsListSport } from './NewsListSport'
